@@ -5,11 +5,14 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="/bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
 
+    <link href="/prettify/prettify.css" type="text/css" rel="stylesheet" />
+    <script type="text/javascript" src="/prettify/prettify.js"></script>
     <title></title>
 </head>
-<body>
+<body onload="prettyPrint()">
 <div class="navbar">
     <div class="navbar-inner">
         <div class="container">
@@ -70,28 +73,35 @@
         <h2>PHP Tags</h2>
 
         <p>Standard Tags – best solution for portability and backwards compatibility, because they are guaranteed to be available and cannot be disabled by changing PHP’s configuration file:</p>
-        <pre>
-<?php
+
+<pre class="prettyprint linenums">
+&lt;?php 
 ... code
-?>
-        </pre>
+?&gt;
+</pre>
+
         <p>Short Tags - can be disabled (often for XML compliance) with short_open_tag directive in php.ini:</p>
-        <pre>
-<?
+
+<pre class="prettyprint linenums">
+&lt;?
+
+?&gt;
+&lt;?=$variable ?&gt;
+</pre>
+
+        <p>Script Tags:</p>
+        <pre class="prettyprint linenums">
+&lt;script language="php"&gt;
 ... code
-?>
-<?=$variable ?>
+&lt;/script&gt;
         </pre>
-Script Tags:
-<script language="php">
-... code
-</script>
-ASP Tags - must be enabled specifically in the php.ini file via the asp_tags directive:
+        <p>ASP Tags - must be enabled specifically in the php.ini file via the asp_tags directive:</p>
+        <pre class="prettyprint linenums">
 <%
 ... code
 %>
 <%=$variable; %>
-
+        </pre>
     </div>
 </div>
 </body>
