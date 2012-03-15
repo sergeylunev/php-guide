@@ -1,0 +1,37 @@
+---
+layout: layout
+title: PHP Tags
+---
+
+        <h2>PHP Tags</h2>
+
+        <p>Standard Tags – best solution for portability and backwards compatibility, because they are guaranteed to be available and cannot be disabled by changing PHP’s configuration file:</p>
+
+<pre class="prettyprint linenums">
+&lt;?php 
+... code
+?&gt;
+</pre>
+
+        <p>Short Tags - can be disabled (often for XML compliance) with short_open_tag directive in php.ini:</p>
+
+<pre class="prettyprint linenums">
+&lt;?
+
+?&gt;
+&lt;?=$variable ?&gt;
+</pre>
+
+        <p>Script Tags:</p>
+        <pre class="prettyprint linenums">
+&lt;script language="php"&gt;
+... code
+&lt;/script&gt;
+        </pre>
+        <p>ASP Tags - must be enabled specifically in the php.ini file via the asp_tags directive:</p>
+        <pre class="prettyprint linenums">
+<%
+... code
+%>
+<%=$variable; %>
+        </pre>
