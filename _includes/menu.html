@@ -1,43 +1,14 @@
         <ul class="nav nav-list">
+            {% for category in site.categories %}
             <li>
-                <a href="/php-basics/php-tags.html">PHP Basics</a>
+                <a href="#">{{ category[0] }}</a>
                 <ul class="nav nav-list">
+                    {% for page in category[1] %}
                     <li>
-                        <a href="/php-basics/php-tags.html">PHP Tags</a>
+                        <a href="{{ page.url }}">{{ page.title }}</a>
                     </li>
-                    <li>
-                        <a href="#">Operators</a>
-                    </li>
+                    {% endfor %}
                 </ul>
             </li>
-            <li>
-                <a href="#">Functions</a>
-            </li>
-            <li>
-                <a href="#">Strings and Patterns</a>
-            </li>
-            <li>
-                <a href="#">Arrays</a>
-            </li>
-            <li>
-                <a href="#">I/O</a>
-            </li>
-            <li>
-                <a href="#">Security</a>
-            </li>
-            <li>
-                <a href="#">Databases</a>
-            </li>
-            <li>
-                <a href="#">Object Oriented Programming</a>
-            </li>
-            <li>
-                <a href="#">Data Format & Types</a>
-            </li>
-            <li>
-                <a href="#">Web Features</a>
-            </li>
-            <li>
-                <a href="#">Design and Theory</a>
-            </li>
+            {% endfor %}
         </ul>
