@@ -1,37 +1,7 @@
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <link href="/bootstrap/css/bootstrap.css" rel="stylesheet">
-    <link href="/bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
-
-    <link href="/prettify/prettify.css" type="text/css" rel="stylesheet" />
-    <script type="text/javascript" src="/prettify/prettify.js"></script>
-    <link href="/assets/css/pygments.css" rel="stylesheet">
-    <title>{{ page.title }}</title>
-</head>
-<body onload="prettyPrint()">
-<div class="navbar">
-    <div class="navbar-inner">
-        <div class="container">
-            <a class="brand" href="/">
-                {{ site.title }}
-            </a>
-
-        </div>
-    </div>
-</div>
-<div class="row">
-    <div class="span3">
-    {% include menu.html %}
-    </div>
-    <div class="span9">
+---
+layout: layout
+---
     {{ content }}
-    </div>
-</div>
     <hr>
     <div class="pagination">
       <ul>
@@ -47,5 +17,4 @@
       {% endif %}
       </ul>
     </div>
-</body>
-</html>
+
