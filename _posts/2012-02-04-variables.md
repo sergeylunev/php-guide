@@ -5,8 +5,6 @@ layout: post
 category: PHP Basics
 ---
 
-## Variables
-
 ### Naming:
 
 * Can only contain letters, numbers or underscores

@@ -5,8 +5,6 @@ layout: post
 category: PHP Basics
 ---
 
-## Operators
-
 
 `>>` (Shift Right) – All of the bits in the binary number shift N places to the right in the number, the right most digit(s) falls out, and the resulting number is padded on the left with 0s. A right shift of one is equivalent to dividing a number by two, and tossing the remainder.
 
