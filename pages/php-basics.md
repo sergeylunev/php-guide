@@ -1,0 +1,43 @@
+---
+layout: page
+title: "Php Basics"
+description: ""
+---
+{% include JB/setup %}
+
+## PHP Tags
+
+Standard Tags – best solution for portability and backwards compatibility, because they are guaranteed to be available and cannot be disabled by changing PHP’s configuration file:
+
+{% highlight php5 linenos %}
+<?php 
+... code
+?>
+{% endhighlight %}
+
+Short Tags - can be disabled (often for XML compliance) with short_open_tag directive in php.ini:
+
+{% highlight php5 linenos %}
+<?
+
+?>
+<?=$variable ?>
+{% endhighlight %}
+
+Script Tags:
+
+{% highlight php5 linenos %}
+<script language="php">
+... code
+</script>
+{% endhighlight %}
+
+ASP Tags - must be enabled specifically in the php.ini file via the asp_tags directive:
+
+{% highlight php5 linenos %}
+<%
+... code
+%>
+<%=$variable; %>
+{% endhighlight %}
+
