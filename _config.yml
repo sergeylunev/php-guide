@@ -53,7 +53,7 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : thebookofknowledge
+      short_name : zceguide
     livefyre :
       site_id : 123
     intensedebate :

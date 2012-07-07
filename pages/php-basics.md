@@ -5,6 +5,19 @@ description: ""
 ---
 {% include JB/setup %}
 
+
+* Syntax
+* Operators
+* Variables
+* Constants
+* Control Structures
+* Language Constructs and Functions
+* Namespaces
+* Extensions
+* Config
+* Performance/bytecode caching
+
+
 ## PHP Tags
 
 Standard Tags – best solution for portability and backwards compatibility, because they are guaranteed to be available and cannot be disabled by changing PHP’s configuration file:
