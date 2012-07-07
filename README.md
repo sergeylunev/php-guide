@@ -2,7 +2,7 @@ ZCE-guide is a small project that provides step by step guide on information nee
 
 Also, it is a good place to start your experience with PHP5.3 or, if you are already an experienced web developer, to return to the basics and remember some details.
 
-Project uses [Jekyll](https://github.com/mojombo/jekyll) (blog-aware, static site generator in Ruby) and is hosted with [GitHub Pages](http://pages.github.com/).
+Project uses [Jekyll](https://github.com/mojombo/jekyll) (blog-aware, static site generator in Ruby) with some staff from [Jekyll Bootstrap](http://jekyllbootstrap.com) and is hosted with [GitHub Pages](http://pages.github.com/).
 
 If you want to contribute, please, read the following guide.
 
@@ -25,16 +25,16 @@ In order to contribute, please, do the following.
 
 On the whole project follows standart [jekyll project layout](https://github.com/mojombo/jekyll/wiki/usage).
 
-Each certification section is presented as category. Each subsection is a post (placed in _post directory).
+Each certification section is presented as page in `pages` directory. Each subsection is a part of a page.
 
 Pygments is used for code highlighting.
 
-Each post should have following variables in YAML Front Matter:
+Each page should have following variables in YAML Front Matter:
 
 * title – post/page title
-* permalink - uri of the page in the format "/:category/:title.html". Spaces a replaced with dashes "-".
-* layout - usually it is "post"
-* category - post category correlates with section of ZCE Exam
+* layout - usually it is "page"
+
+Menu is written in `_includes/menu.html`.
 
 ## Content
 
