@@ -1,5 +1,5 @@
 ---
-layout: layout
+layout: page
 title: Main page
 ---
 {% include JB/setup %}
