@@ -1,9 +1,11 @@
 ---
-title: Reasons 
-permalink: /functions/reasons.html
-layout: post 
-category: Functions
+layout: page
+title: "Functions"
+description: ""
 ---
+{% include JB/setup %}
+
+## Reasons
 
 * Readability
 * Maintainability
@@ -11,4 +13,6 @@ category: Functions
 * Modularity
 * Our Comp-Sci teacher told us to
 * To do otherwise would subject us to mockery
+
+* * *
 
