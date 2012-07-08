@@ -1,16 +1,35 @@
-ZCE-guide is a small project that provides step by step guide on information needed to pass PHP5.3 ZCE certification: [http://www.zend.com/en/services/certification/php-5-certification/](http://www.zend.com/en/services/certification/php-5-certification/).
+# PHP Study Guide
 
-Also, it is a good place to start your experience with PHP5.3 or, if you are already an experienced web developer, to return to the basics and remember some details.
+## What?
 
-Project uses [Jekyll](https://github.com/mojombo/jekyll) (blog-aware, static site generator in Ruby) with some staff from [Jekyll Bootstrap](http://jekyllbootstrap.com) and is hosted with [GitHub Pages](http://pages.github.com/).
+Originally PHP Study Guide was a small project that provides step by step guide on information needed to pass PHP5.3 ZCE certification: [http://www.zend.com/en/services/certification/php-5-certification/](http://www.zend.com/en/services/certification/php-5-certification/).
 
-If you want to contribute, please, read the following guide.
+For now it aims to go little bit beyond the Zend Certification and is a good place to start your experience with PHP5.3 or, if you are already an experienced web developer, to return to the basics and remember some details.
 
-# How to contribute
+## Where?
 
-## Workflow
+At the moment project is placed at <http://zce.evercodelab.com/> and hosted on [GitHub.Pages](http://pages.github.com).
 
-In general, all development happens in master and topic branches. When changes are ready for publishing they are merged into gh-pages. GitHub processes new content and then automatically publishes it.
+## Sources
+
+All content is assembled from different sources and tutorials.
+
+* Zend PHP 5.0 Certification Course by Paul Reinheimer
+* Zend PHP 5 Certification Study Guide
+* Zend PHP 5.3 Study Guide v1
+* [Read The Web Blog](http://readtheweb.info/index.php?s=Zend+PHP+5+Certification+Exam&submit=Go)
+* <http://www.php.net/manual/en/>
+* <http://zend-php.appspot.com/>
+
+Original guide was structured in Google Docs and then published as [pdf](http://victimofbabylon.com/zce-php-53-study-guide).
+
+## Who?
+
+Mainly project is done by me, [Roma Lapin](https://github.com/memphys) and supported by [Evercode Lab](http://www.evercodelab.com/).
+
+## How to contribute
+
+At first all content was assembled to be used for PHP5.3 ZCE certification. So it aimed to be short and kind of limited. For now feel free to contribute to it. All suggestions to content and design is appreciated.
 
 In order to contribute, please, do the following.
 
@@ -31,20 +50,7 @@ Pygments is used for code highlighting.
 
 Each page should have following variables in YAML Front Matter:
 
-* title – post/page title
+* title – page title
 * layout - usually it is "page"
 
-Menu is written in `_includes/menu.html`.
-
-## Content
-
-Original guide was structured in Google Docs and then published as [pdf](http://victimofbabylon.com/zce-php-53-study-guide). While the content transfer is happening, original doc is [available for anybody](https://docs.google.com/document/d/1GiLHFPV9dvLLsQfPj1f0WzYD1kBZ_EdAhspcxEEMWys/edit).
-
-In order to help transfer contents from doc to this guide, please, do the following:
-
-* Choose subsection to transfer
-* Create an issue with subsection title in it and state that you are working on it.
-* Format content using markdown as described earlier
-* Send Pull Request
-* Profit!
-
+Menus is stored in `_includes/menu`.
