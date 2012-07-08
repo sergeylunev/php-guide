@@ -12,7 +12,7 @@ For now it aims to go little bit beyond the Zend Certification and is a good pla
 
 ## Where?
 
-At the moment project is placed at <http://zce.evercodelab.com/> and hosted on [GitHub.Pages](http://pages.github.com).
+At the moment project is placed at <http://php-guide.evercodelab.com/> and hosted on [GitHub.Pages](http://pages.github.com).
 
 ## Sources
 
