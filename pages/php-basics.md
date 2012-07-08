@@ -5,18 +5,7 @@ description: ""
 ---
 {% include JB/setup %}
 
-
-* Syntax
-* Operators
-* Variables
-* Constants
-* Control Structures
-* Language Constructs and Functions
-* Namespaces
-* Extensions
-* Config
-* Performance/bytecode caching
-
+{% include menu/php-basics.md %}
 
 ## PHP Tags
 

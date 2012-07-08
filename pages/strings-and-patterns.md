@@ -5,16 +5,7 @@ description: ""
 ---
 {% include JB/setup %}
 
-
-* Quoting
-* Matching
-* Extracting
-* Searching
-* Replacing
-* Formatting
-* PCRE
-* HEREDOC and NOWDOC
-* Encodings
+{% include menu/strings-and-patterns.md %}
 
 * * * 
 

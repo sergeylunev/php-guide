@@ -5,12 +5,7 @@ description: ""
 ---
 {% include JB/setup %}
 
-* Enumerated Arrays
-* Associative Arrays
-* Array Iteration
-* Multi-Dimensional Arrays
-* Array Functions
-* SPL, Objects as arrays
+{% include menu/arrays.md %}
 
 * * * 
 

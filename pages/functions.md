@@ -5,14 +5,7 @@ description: ""
 ---
 {% include JB/setup %}
 
-
-* Syntax
-* Arguments
-* Variables
-* References
-* Returns
-* Variable Scope
-* Anonymous Functions, closures
+{% include menu/functions.md %}
 
 ## Reasons
 

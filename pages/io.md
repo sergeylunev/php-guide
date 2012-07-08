@@ -5,13 +5,7 @@ description: ""
 ---
 {% include JB/setup %}
 
-* Files
-* Reading
-* Writing
-* File System Functions
-* Streams
-* Contexts
-
+{% include menu/io.md %}
 
 * * * 
 

@@ -5,20 +5,7 @@ description: ""
 ---
 {% include JB/setup %}
 
-* Configuration
-* Session Security
-* Cross-Site Scripting
-* Cross-Site Request Forgeries
-* SQL Injection
-* Remote Code Injection
-* Email Injection
-* Filter Input
-* Escape Output
-* Encryption, Hashing algorithms
-* File uploads
-* Data storage
-* SSL
-
+{% include menu/security.md %}
 
 * * *
 
