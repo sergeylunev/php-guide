@@ -1,7 +1,7 @@
 title: PHP study guide
 auto: true
 pygments: true
-markdown: rdiscount
+# markdown: rdiscount
 author:
   name: Roma Lapin
   email: roma@evercodelab.com
