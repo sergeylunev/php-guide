@@ -1,0 +1,7 @@
+* [Facts](/pages/databases.html#facts)
+* [Analyzing Queries](/pages/databases.html#analyzing_queries)
+* [Prepared Statements](/pages/databases.html#prepared_statements)
+* [Mysqli](/pages/databases.html#mysqli)
+* [Transactions](/pages/databases.html#transactions)
+* [PDO](/pages/databases.html#pdo)
+* [SQLite](/pages/databases.html#sqlite)

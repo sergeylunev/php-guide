@@ -1,6 +1,6 @@
 * [Facts](/pages/arrays.html#facts)
 * [Iteration](/pages/arrays.html#iteration)
 * [Sorting](/pages/arrays.html#sorting)
-* [Stacks and Queues](/pages/arrays.html#stacks__queues)
+* [Stacks & Queues](/pages/arrays.html#stacks__queues)
 * [Functions](/pages/arrays.html#functions)
 * [SPL, Objects as arrays](/pages/arrays.html#spl_objects_as_arrays)
