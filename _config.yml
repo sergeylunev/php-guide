@@ -1,6 +1,7 @@
-title: PHP5.3 ZCE study guide
+title: PHP study guide
 auto: true
 pygments: true
+markdown: rdiscount
 author:
   name: Roma Lapin
   email: roma@evercodelab.com
